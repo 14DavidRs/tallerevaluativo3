@@ -14,3 +14,6 @@ JSON Web Tokens son tokens firmados que contienen un payload (ej: userId) y se u
 - CORS: permitir solo `https://mi-frontend.example.com`.
 - JWT: al logear, devolver token; luego usar Authorization: Bearer <token> en /tasks.
 
+Cómo implementamos JWT
+
+En nuestro proyecto, utilizamos JSON Web Tokens (JWT) para manejar la autenticación de usuarios de manera segura y eficiente. JWT nos permite validar la identidad del usuario sin necesidad de almacenar sesiones en el servidor, lo que hace el sistema más ligero y escalable.
