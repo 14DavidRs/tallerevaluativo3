@@ -13,3 +13,4 @@ JSON Web Tokens son tokens firmados que contienen un payload (ej: userId) y se u
 - Rate-limit: `/auth/login` -> máximo 5 intentos por minuto.
 - CORS: permitir solo `https://mi-frontend.example.com`.
 - JWT: al logear, devolver token; luego usar Authorization: Bearer <token> en /tasks.
+
